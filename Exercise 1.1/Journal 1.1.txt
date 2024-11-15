@@ -1,0 +1,25 @@
+﻿Exercise 1.1: Getting Started with Python
+Learning Goals
+ 
+●        Summarize the uses and benefits of Python for web development
+●        Prepare your developer environment for programming with Python
+ 
+Reflection Questions
+ 
+1. In your own words, what is the difference between frontend and backend web development? If you were hired to work on backend programming for a web application, what kinds of operations would you be working on?
+Answer:
+
+Frontend development focuses on the visual aspects and user interface—the parts of the website or application that users directly interact with.Backend programming involves working with servers, databases, and APIs to process user requests, store and retrieve data, and manage the overall application workflow. If I were hired as a backend developer, I would be responsible for tasks such as designing and implementing APIs, creating database structures to store user information, writing server-side code to process and respond to user actions, and ensuring the backend system is efficient and scalable.
+
+   2. Imagine you’re working as a full-stack developer in the near future. Your team is asking for your advice on whether to use JavaScript or Python for a project, and you think Python would be the better choice. How would you explain the similarities and differences between the two languages to your team? Drawing from what you learned in this Exercise, what reasons would you give to convince your team that Python is the better option?
+Answer:
+
+Both Python and JavaScript are versatile, high-level programming languages widely used in web development.
+JavaScript is typically associated with frontend development. While it can also be used for backend development with Node.js, its ecosystem is more focused on client-side functionality. On the other hand, Python is predominantly a backend development language, known for its simplicity, readability, and extensive library support. It is particularly well-suited for complex server-side tasks, such as data manipulation, database integration, and handling APIs.
+ 
+      3. Now that you’ve had an introduction to Python, write down 3 goals you have for yourself and your learning during this Achievement. You can reflect on the following questions if it helps you. What do you want to learn about Python? What do you want to get out of this Achievement? Where or what do you see yourself working on after you complete this Achievement?
+Answer:
+
+Firstly, I want to deepen my understanding of Python’s core concepts and fundamentals. This will provide a strong base for more advanced programming tasks in the future.
+Secondly, I aim to develop practical skills in using Python for backend development. By building a real-world project during this Achievement, I want to gain hands-on experience that will prepare me for future professional opportunities.
+Finally, my third goal is to position myself for success in a future role as a backend or full-stack developer. By the end of this Achievement, I want to confidently apply Python to solve real-world problems, whether through web development, automation, or other programming challenges.
