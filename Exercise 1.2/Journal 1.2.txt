@@ -1,0 +1,19 @@
+Exercise 1.2: Data Types in Python
+Learning Goals
+
+●	Explain variables and data types in Python
+●	Summarize the use of objects in Python
+●	Create a data structure for your Recipe app
+
+Reflection Questions
+
+1.	Imagine you’re having a conversation with a future colleague about whether to use the iPython Shell instead of Python’s default shell. What reasons would you give to explain the benefits of using the iPython Shell over the default one?
+
+The iPython Shell offers significant advantages over Python’s default shell, making it more practical and user-friendly. One key benefit is its syntax highlighting, which displays code in different colors and fonts, improving readability compared to the single-color text of the default shell. Additionally, it provides automatic indentation, which saves time and reduces errors when writing functions or nested statements, whereas the default shell requires manual indentation. The iPython Shell also allows for quick testing of small code chunks, displaying results immediately without the need to draft and execute full script files, making it an efficient tool for experimentation and debugging. With these features and its intuitive design, the iPython Shell is an excellent choice for both beginners and experienced developers to enhance productivity and readability.
+
+2.	Python has a host of different data types that allow you to store and organize information. List 4 examples of data types that Python recognizes, briefly define them, and indicate whether they are scalar or non-scalar.
+
+int:	Represents whole numbers, like 1, 42, or -10.	Scalar
+float:	Represents decimal numbers, like 3.14, 0.001, or -7.2. Scalar.
+str:	Represents a sequence of characters, like "hello" or "Python". Non-Scalar.
+list:	Represents an ordered collection of items, which can be of different types, like [1, "apple", 3.5]. Non-Scalar.

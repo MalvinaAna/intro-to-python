@@ -46,3 +46,20 @@ This project is a command-line Recipe app designed to manage, store, and search 
 - Installed Python on macOS, Windows, and Linux.
 - Created and managed virtual environments.
 - Used `pip` to install and manage Python packages.
+
+### **Exercise 2: Data Structures for Recipe Management**
+
+#### **Storing Recipe Data**
+To represent the attributes of a recipe, a **dictionary** is the most suitable data structure. Each recipe is stored as a dictionary, where the keys represent the attributes (e.g., "name," "cooking_time," and "ingredients") and the values contain the corresponding information. 
+
+This approach allows for:
+- **Clear attribute representation**: Dictionary keys explicitly describe each attribute, making the structure self-documenting.
+- **Ease of access and modification**: Values can be easily retrieved or updated by referring to their corresponding keys.
+
+Example:
+```python
+recipe = {
+    "name": "Pasta Alfredo",
+    "cooking_time": 30,
+    "ingredients": ["pasta", "cream", "parmesan", "butter"]
+}
