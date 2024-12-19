@@ -1,0 +1,27 @@
+Exercise 1.5: Object-Oriented Programming in Python
+Learning Goals
+
+●	Apply object-oriented programming concepts to your Recipe app
+
+Reflection Questions
+
+1.	In your own words, what is object-oriented programming? What are the benefits of OOP?
+
+Object-oriented programming (OOP) is a programming style that organizes code around objects instead of actions. In OOP, data and the functions that work with that data are bundled together inside objects. 
+
+The benefits of OOP include reusability, where you can use the same class to create many objects without rewriting the code. OOP also provides better organization because code is structured around the relationships between objects. Encapsulation ensures that each object’s internal workings are hidden, making code safer and less prone to errors. Additionally, OOP makes large programs easier to maintain because you can focus on one piece of functionality at a time.
+
+2.	What are objects and classes in Python? Come up with a real-world example to illustrate how objects and classes work.
+
+A class in Python is like a blueprint that defines the properties and behaviors of an object. An object is an instance of a class, meaning it is created based on the class’s blueprint. For example, in a recipe app, a Recipe class might describe the general idea of a recipe, including its name, ingredients, and cooking time. An object of that class, like tea_recipe, would represent one specific recipe, such as tea, with specific ingredients like water and tea leaves.
+
+3.	In your own words, write brief explanations of the following OOP concepts; 100 to 200 words per method is fine. 
+
+Inheritance
+Inheritance is a feature of OOP that allows one class (called the child class) to inherit properties and methods from another class (called the parent class). This allows you to reuse existing code while still adding specific features to the new class. For example, if you have a parent class Recipe, you might create a child class DessertRecipe that inherits all the features of Recipe but also adds specific properties like sweetness level or frosting type. This avoids duplicating code and makes programs easier to maintain.
+
+Polymorphism
+Polymorphism means "many forms." It allows different classes to use the same method name but behave differently. For example, imagine a method cook() in a Recipe class. In a CakeRecipe class, calling cook() might mean baking in an oven, while in a SmoothieRecipe class, calling cook() might involve blending ingredients. Polymorphism ensures that the right version of the method is used depending on the object.
+
+Operator Overloading
+Operator overloading allows you to define how operators like +, -, or * work for your custom classes. For example, if you have a class Ingredient, you might overload the + operator so that adding two Ingredient objects combines their quantities. This makes your code more intuitive and readable. For instance, ingredient1 + ingredient2 would make sense instead of writing a separate method like combine(ingredient1, ingredient2).
