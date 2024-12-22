@@ -1,0 +1,33 @@
+Exercise 1.6: Connecting to Databases in Python
+
+Learning Goals
+
+●	Create a MySQL database for your Recipe app
+
+Reflection Questions
+
+1.	What are databases and what are the advantages of using them?
+
+Databases are structured systems for storing, organizing, and retrieving data. Instead of keeping information in simple text files, a database helps manage large amounts of data efficiently and securely. They allow for better organization, faster searches, and data sharing among multiple users or applications. Databases also support backup and recovery, ensuring that data isn't lost if something goes wrong.
+
+2.	List 3 data types that can be used in MySQL and describe them briefly:	
+
+INT: This type is used to store whole numbers, like 1, 10, or 1000. It's great for things like counting or storing IDs.
+VARCHAR: This is used to store text or characters, like names or email addresses. You can set a maximum length, like VARCHAR(50), which means it can hold up to 50 characters.
+DATE: This type is used for storing calendar dates, like '2024-12-22'. It’s helpful when you need to track things like birthdays or event dates.
+
+3.	 In what situations would SQLite be a better choice than MySQL?
+
+SQLite is a good choice when you need a lightweight and simple database that doesn’t require a server. It's great for small projects, like apps that run on a single computer or mobile device. Since it’s file-based, it’s easy to set up and doesn’t need extra software to manage. MySQL is better for bigger, more complex projects where many users or systems need to access the database at the same time.
+
+4.	Think back to what you learned in the Immersion course. What do you think about the differences between JavaScript and Python as programming languages?
+
+JavaScript is mainly used for building interactive websites, especially on the front end (things users see and interact with). It runs in browsers and is great for making pages dynamic, like adding animations or responding to clicks. Python, on the other hand, is a general-purpose language that’s easy to learn and used for many tasks, like data analysis, web development, and automation. Python focuses on simplicity and readability, while JavaScript is designed to work seamlessly in web environments.
+
+5.	Now that you’re nearly at the end of Achievement 1, consider what you know about Python so far. What would you say are the limitations of Python as a programming language?
+
+Python is slower than JavaScript because Python runs code line by line, while JavaScript is optimized for web environments and works faster in browsers.
+
+JavaScript is better for building interactive web pages, while Python is more focused on back-end tasks like working with data or servers.
+
+For mobile apps, JavaScript has tools like React Native, but Python isn’t commonly used for creating mobile apps.
