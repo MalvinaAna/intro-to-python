@@ -1,0 +1,28 @@
+Exercise 2.1: Getting Started with Django
+
+Learning Goals
+
+●	Explain MVT architecture and compare it with MVC
+●	Summarize Django’s benefits and drawbacks 
+●	Install and get started with Django
+
+Reflection Questions
+
+1.	Suppose you’re a web developer in a company and need to decide if you’ll use vanilla (plain) Python for a project, or a framework like Django instead. What are the advantages and drawbacks of each?
+
+Using vanilla Python gives you complete control over every aspect of your project and allows you to build everything from the ground up, which can be useful for very simple projects or when you need full customization. However, it can be time-consuming and requires writing a lot of boilerplate code. A framework like Django, on the other hand, provides pre-built tools and components that speed up development, enforce best practices, and make handling complex tasks, such as database interactions or user authentication, much easier. The drawback is that Django enforces certain conventions and structures, which might feel restrictive if you need complete flexibility.
+
+2.	In your own words, what is the most significant advantage of Model View Template (MVT) architecture over Model View Controller (MVC) architecture?
+
+The most significant advantage of the Model View Template (MVT) architecture over Model View Controller (MVC) architecture is that MVT integrates the template directly as part of its structure, making it more streamlined for web development. In MVT, the "template" handles both the user interface and the rendering of dynamic content, reducing the complexity of managing separate components and allowing for faster and cleaner integration of design with logic.
+
+3.	Now that you’ve had an introduction to the Django framework, write down three goals you have for yourself and your learning process during this Achievement. You can reflect on the following questions if it helps:
+●	What do you want to learn about Django? 
+●	What do you want to get out of this Achievement? 
+●	Where or what do you see yourself working on after you complete this Achievement?
+
+I want to gain a deeper understanding of how Django simplifies complex web development tasks, such as user authentication and database management.
+
+I would like to be to build a fully functional web application by the end of the learning process, focusing on creating a project that showcases Django's key features.
+
+After completing this learning experience, I would aim to work on more advanced Django projects or contribute to open-source Django applications to solidify my knowledge and grow my skills.
