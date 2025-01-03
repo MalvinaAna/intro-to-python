@@ -1,0 +1,23 @@
+Exercise 2.2: Django Project Set Up
+
+Learning Goals
+
+●	Describe the basic structure of a Django project 
+●	Summarize the difference between projects and apps
+●	Create a Django project and run it locally
+●	Create a superuser for a Django web application
+
+Reflection Questions
+
+1.	Suppose you’re in an interview. The interviewer gives you their company’s website as an example, asking you to convert the website and its different parts into Django terms. How would you proceed? For this question, you can think about your dream company and look at their website for reference. 
+(Hint: In the Exercise, you saw the example of the CareerFoundry website in the Project and Apps section.)
+
+To convert a website into Django terms, I would begin by identifying the major sections or features of the website, such as the homepage, user profiles, product pages, or contact forms. Each of these sections could be represented as separate Django apps. For example, if the site is an e-commerce platform, I might create apps like "products" for listing and managing items, "users" for handling authentication and profiles, and "cart" for shopping cart functionality. The overall structure of the website would be managed by the Django project, which ties all the apps together and handles site-wide configurations like settings and URL routing.
+
+2.	In your own words, describe the steps you would take to deploy a basic Django application locally on your system. 
+
+To deploy a basic Django application locally, I would start by ensuring that Python is installed and then, I would create a new virtual environment and install Django. Next, I would create a Django project using the django-admin startproject command and navigate into the project directory. Then, I would run python manage.py runserver to start the development server and access the application in a browser. To customize the app, I would create new Django apps using python manage.py startapp, define models for database structure, set up views and templates for displaying content, and configure URL routing in the project's urls.py file. Finally, I would test the application locally by interacting with it through the browser.
+
+3.	Do some research about the Django admin site and write down how you’d use it during your web application development.
+
+The Django admin site is a built-in feature that allows developers to manage the backend of their web applications efficiently. During development, I would use the admin site to perform tasks like adding, editing, or deleting database entries without writing SQL queries manually. It’s particularly helpful for quickly testing how models interact with the database and ensuring data consistency. The admin site can also be customized to display specific fields or relationships, making it a powerful tool for managing the application’s content and users.
