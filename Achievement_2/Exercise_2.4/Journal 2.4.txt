@@ -1,0 +1,21 @@
+Exercise 2.4: Django Views and Templates
+
+Learning Goals
+
+●	Summarize the process of creating views, templates, and URLs 
+●	Explain how the “V” and “T” parts of MVT architecture work
+●	Create a frontend page for your web application
+
+Reflection Questions
+
+1.	Do some research on Django views. In your own words, use an example to explain how Django views work.
+
+Django views handle requests from users and determine the response to send back. For example, in a blog application, a view retrieves blog posts from the database and provides them to the template for display. Views act as a bridge between the data in the database and the content displayed on the web page.
+
+2.	Imagine you’re working on a Django web development project, and you anticipate that you’ll have to reuse lots of code in various parts of the project. In this scenario, will you use Django function-based views or class-based views, and why?
+
+For projects requiring significant code reuse, class-based views are often the better choice. These views enable the organization of common behaviors into parent classes, allowing them to be easily shared across multiple views. This approach improves maintainability and reduces duplication, particularly in complex projects with recurring patterns.
+
+3.	 Read Django’s documentation on the Django template language and make some notes on its basics.
+
+The Django template language generates dynamic HTML content by allowing variables and control structures to be embedded directly into templates. Variables represent data from the back-end, while loops and conditions enable dynamic content rendering based on specific criteria. Filters are used to modify data within templates, such as formatting numbers or dates, ensuring the presentation remains clear and consistent.
