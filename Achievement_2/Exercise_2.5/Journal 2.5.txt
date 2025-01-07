@@ -1,0 +1,27 @@
+Exercise 2.5: Django MVT Revisited
+
+Learning Goals
+
+●	Add images to the model and display them on the frontend of your application
+●	Create complex views with access to the model
+●	Display records with views and templates
+
+
+Reflection Questions
+
+1.	In your own words, explain Django static files and how Django handles them.
+
+Django static files are assets like images, CSS, and JavaScript that are used to enhance the design and functionality of a web application. Django handles these files by collecting them from different parts of the project and serving them during development using its built-in static file handling. In a production environment, static files are served by a web server or cloud storage to ensure efficient delivery to users.
+
+2.	Look up the following two Django packages on Django’s official documentation and/or other trusted sources. Write a brief description of each.
+
+
+Package	Description
+ListView	
+DetailView	
+
+ListView is a class-based view provided by Django that simplifies displaying a list of objects from a database. It handles common tasks like retrieving data, rendering it in a template, and managing pagination, making it a useful tool for pages such as item catalogs or blog post lists. DetailView is another class-based view that focuses on displaying details for a single object, such as a product page or a blog post. It retrieves the specific object based on parameters like an ID or slug and displays it using a template, reducing the need for custom code.
+
+3.	You’re now more than halfway through Achievement 2! Take a moment to reflect on your learning in the course so far. How is it going? What’s something you’re proud of so far? Is there something you’re struggling with? What do you need more practice with? You can use these notes to guide your next mentor call. 
+
+The learning process so far has been a mix of new concepts and practical application, which helps in building my confidence with Django. It’s rewarding to see progress in understanding how different components, like models, views, and templates, work together. There might be some challenges in managing complex relationships between models or using advanced class-based views effectively. More practice with writing queries and handling dynamic content would help me solidify these skills.
