@@ -1,0 +1,27 @@
+Exercise 2.6: User Authentication in Django
+
+Learning Goals
+
+●	Create authentication for your web application
+●	Use GET and POST methods 
+●	Password protect your web application’s views
+
+Reflection Questions
+
+1.	In your own words, write down the importance of incorporating authentication into an application. You can take an example application to explain your answer. 
+
+Incorporating authentication into an application is crucial for ensuring that only authorized users can access certain features or data. For example, in an e-commerce platform, authentication allows users to log in and access their personal account information, such as order history and saved addresses, while keeping this information secure from unauthorized access. Authentication also forms the foundation for additional features like user-specific content and role-based permissions.
+
+2.	In your own words, explain the steps you should take to create a login for your Django web application. 
+
+To create a login for a Django web application, the first step is to set up a user model and configure authentication in the project settings. A login view is then created to handle requests and verify user credentials using Django’s built-in authentication functions. A login form is designed in a template, and URL routing is configured to connect the login view with the form. After successful login, the user is redirected to a secure or relevant page, and session management is used to maintain the logged-in state.
+
+3.	Look up the following three Django functions on Django’s official documentation and/or other trusted sources and write a brief description of each.
+
+
+Function	Description
+authenticate()	
+redirect()	
+include()	
+
+The authenticate() function verifies user credentials by checking the provided username and password against the database. If the credentials are valid, it returns a user object; otherwise, it returns None. The redirect() function simplifies the process of sending users to a different URL after completing an action, such as redirecting to the homepage after a successful login. The include() function allows for modular URL configuration by including URL patterns from other apps or modules, making it easier to organize and manage routes in a Django project.
