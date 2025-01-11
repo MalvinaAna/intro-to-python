@@ -1,0 +1,18 @@
+Exercise 2.8: Deploying a Django Project
+Learning Goals
+
+●	Enhance user experience and look and feel of your web application using CSS and JS
+●	Deploy your Django web application on a web server 
+●	Curate project deliverables for your portfolio
+
+Reflection Questions
+
+1.	Explain how you can use CSS and JavaScript in your Django web application.
+
+CSS and JavaScript can be used in a Django web application to enhance the design and interactivity of web pages. These files are treated as static assets and are typically stored in a static directory within the app or project. Django’s template system includes a {% load static %} tag, which allows linking to these files in templates. Once linked, CSS styles can be applied to HTML elements, and JavaScript can add dynamic behaviors like form validation or interactive charts to the application.
+
+2.	In your own words, explain the steps you’d need to take to deploy your Django web application. 
+
+Deploying a Django web application involves several steps. First, the development settings must be updated for production, including configuring allowed hosts, setting up a production-ready database, and enabling secure handling of static files. Next, the application is uploaded to a hosting platform, such as a cloud server or a service like Heroku. After configuring the server to serve the application, a web server like Nginx or Apache is typically set up to handle incoming requests. Additional steps include applying database migrations, setting up environment variables, and enabling HTTPS to ensure security. Regular testing and monitoring are essential to ensure the deployed application functions smoothly.
+
+Well done—you’ve now completed the Learning Journal for the whole course. 
