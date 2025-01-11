@@ -1,0 +1,21 @@
+Exercise 2.7: Data Analysis and Visualization in Django
+
+Learning Goals
+
+●	Work on elements of two-way communication like creating forms and buttons
+●	Implement search and visualization (reports/charts) features
+●	Use QuerySet API, DataFrames (with pandas), and plotting libraries (with matplotlib)
+
+Reflection Questions
+
+1.	Consider your favorite website/application (you can also take CareerFoundry). Think about the various data that your favorite website/application collects. Write down how analyzing the collected data could help the website/application. 
+
+Analyzing the data collected by a website or application helps improve user experience and business outcomes. For example, an e-commerce platform collects data on user behavior, such as frequently visited pages, search queries, and purchase history. By analyzing this data, the platform can recommend products tailored to user preferences, optimize the layout of high-traffic pages, and identify trends to inform marketing strategies. These insights help the application remain user-focused while achieving business goals.
+
+2.	Read the Django official documentation on QuerySet API. Note down the different ways in which you can evaluate a QuerySet.
+
+The Django QuerySet API provides various methods for evaluating a QuerySet. These include retrieving data with methods like all() or filter() to get specific records, using aggregation functions like count() or annotate() to compute summaries, and employing slicing or indexing to work with a subset of the data. QuerySets are lazy by default, meaning they execute database queries only when data is explicitly needed, which optimizes performance.
+
+3.	In the Exercise, you converted your QuerySet to DataFrame. Now do some research on the advantages and disadvantages of QuerySet and DataFrame, and explain the ways in which DataFrame is better for data processing.
+
+QuerySets and DataFrames have distinct advantages based on the context of their use. QuerySets are directly tied to the database and provide an efficient way to query and retrieve data, leveraging Django’s ORM features. DataFrames, on the other hand, are better suited for complex data analysis and visualization due to their compatibility with libraries like pandas and matplotlib. DataFrames allow for advanced operations like grouping, pivoting, and statistical analysis, which are not as straightforward with QuerySets. However, converting QuerySets to DataFrames adds processing overhead and is only necessary when advanced data manipulation or visualization is required.
